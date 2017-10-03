@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather APP</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://bootswatch.com/lumen/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <!--NavBar-->
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Weather APP</a>
+            </div>
+        </div>
+    </nav>
+    <!--./NavBar-->
+    <!--Body-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <h1>Hello, Happy to help you with weather!!</h1>
+                    <input class="form-control" type="text" id="city" placeholder="enter city name">
+                    <p class="check_weather"><a id="submit" class="btn btn-primary btn-lg" href="#" role="button">Check Weather</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <div id="data">
+                    <h3 id="ct" class="alert alert-success" role="alert"> </h3>
+                    <h3 id="mit" class="alert alert-info" role="alert"> </h3>
+                    <h3 id="mat" class="alert alert-warning" role="alert"> </h3>
+                    <h3 id="lt" class="alert alert-danger" role="alert"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--./Body-->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDVT8N8FmhkFb11FG0lTcWllWVHUKN03jM "></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
